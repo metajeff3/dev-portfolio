@@ -2,33 +2,100 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
     <title>My Dev Portfolio</title>
+
+    <!--viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--favicon-->
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Normalize-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <!--Personal Style Sheet-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
 
+  <!--logo and navbar-->
   <body>
-    <header>
-      <div class="logo">
-        <img src="/images/logo.png" alt="logo" />
-        <nav>
-          <!--add logo here-->
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </nav>
-      </div>
+    <header class="page-header">
+      <!--logo-->
+      <img src="/images/logo.png" alt="logo" class="page-header-img" />
+
+      <!--navbar-->
+      <nav class="main-nagivation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list___item navigation-list__item--active"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main>
+
+    <!--profile information-->
+    <div class="profile">
+      <img src="/images/photo.jpg" class="profile__portrait" alt="profile" />
       <h1>Hello, world!</h1>
-      <p>This is my developer portfolio homepage!</p>
-    </main>
-    <footer>
-      <p>Find me on</p>
-      <!-- Github logo -->
-      <img src="img/github_icon.svg" alt="github" />
-      <!-- LinkedIn logo -->
-      <img src="img/linkedin_icon.svg" alt="linkedin" />
+      <p>My name is Jeff Spacek</p>
+      <p>I am a future Software Engineer from the Pacific Northwest</p>
+      <!-- link to work page-->
+      <a href="work.html"> Check out some of my code!</a>
+    </div>
+
+    <!--Footer and call to action-->
+    <footer class="page-footer">
+      <!--social media tags-->
+      <p>Find me on:</p>
+
+      <div class="social-media">
+        <!--github-->
+
+        <a href="https://github.com/jeffspacek3" target="blank">
+          <img src="images/github_icon.svg" />
+        </a>
+
+        <!--linkedin -->
+        <a href="https://www.linkedin.com/in/jeff-spacek/" target="blank">
+          <img src=" images/linkedin_logo.svg" />
+        </a>
+      </div>
     </footer>
+
+    <!-- My Javascript file-->
+    <sript src="js/scripts.js"></sript>
+
+    <script src="js/tota11y.min.js"></script>
   </body>
 </html>

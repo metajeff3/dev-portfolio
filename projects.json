@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Pokédex App",
+      "description": "A responsive JavaScript web app that displays Pokémon data from an external API. Built with HTML, CSS, and JavaScript.",
+      "image": "/images/pokedex-preview.png",
+      "liveLink": "https://metajeff3.github.io/simple-js-app/",
+      "repoLink": "https://github.com/metajeff3/simple-js-app",
+      "techStack": ["HTML", "CSS", "JavaScript", "API Fetch"]
+    },
+    {
+      "title": "myFlix API",
+      "description": "A RESTful API built with Node.js, Express, and MongoDB that allows users to access information about movies, directors, and genres.",
+      "image": "images/myflix-api.png",
+      "liveLink": "https://myflix-api.herokuapp.com",
+      "repoLink": "https://github.com/metajeff3/myflix-api",
+      "techStack": ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT"]
+    },
+    {
+      "title": "Developer Portfolio",
+      "description": "A fully responsive personal portfolio website built with HTML and CSS, showcasing web development projects and skills.",
+      "image": "images/portfolio.png",
+      "liveLink": "https://metajeff3.github.io/dev-portfolio/",
+      "repoLink": "https://github.com/metajeff3/dev-portfolio",
+      "techStack": ["HTML", "CSS", "Responsive Design"]
+    }
+  ]
